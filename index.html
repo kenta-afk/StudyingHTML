@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css" >
+    <link rel= "stylesheet" href= "https://maxst.icons8.com/vue-static/landings/line-awesome/font-awesome-line-awesome/css/all.min.css" >
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="header-top">
+        <img src="./assets/s0311_00-1024x670.jpg"alt="" class="head_img" id="top">
+        <header >
+            <ul class="header_list">
+                <li><a href="#top">top</a></li>
+                <li><a href="#content">content</a></li>
+                <li><a href="#myfave">myfave</a></li>
+            </ul>
+        </header>
+
+        <h2 class="head_h2 slide-bottom show">推し紹介</h2>
+        <div class="head_title">
+          <h1 class="head_h1 slide-bottom show">競馬</h1>
+          <div class="div_border slide-bottom show">
+        </div>
+
+        <h3 class="head_h3 slide-bottom show">競馬の魅力</h3>
+        <p class="head_p slide-bottom show">賭けるだけなんてもったいない</p>
+    </div>
+    <div class="main">
+        <div class="sidebar">
+            <nav>
+                <ul>
+                    <li class="box"><a href="#top"><i class="las la-horse-head"></i> home</a></li>
+                    <li class="box"><a href="#content"><i class="las la-horse-head"></i> content</a></li>
+                    <li class="box"><a href="#myfave"><i class="las la-horse-head"></i> myfave</a></li>
+                </ul>
+            </nav>
+        </div>
+        <div class="contents">
+            <div>
+
+                <section id="content">
+                    <div class="title">
+                        <h2>競馬とは</h2> 
+                    </div>
+                    <div class="div_border_sec"></div>
+                    <div class="card slide-bottom show">
+                        <img src="./assets/ronshan.jpg" class="card_img">
+                        <div class="card_text">
+                            <h1>
+                                騎手が乗った馬により競われる競走競技
+                            </h1>
+                            <p>
+                                グレード分けがされておりGⅠ馬という最高峰になれるのはごくわずか
+                                <br>
+                                およそ年間7000頭以上のサラブレッドが生産され、
+                                <br>
+                                １年間で開催される国内GⅠの数は24レースという少なさ。
+                                <br>
+                                さらに出場するにも条件が厳しいためかなり狭き門となっている。
+                                <br>
+                              </p>
+                        </div>
+                    </div>
+                    <div class="card slide-bottom show">
+                        <img src="./assets/dar.jpg" class="card_img">
+                        <div class="card_text">
+                            <h1>
+                              競走馬は時速60～70キロで走る
+                            </h1>
+                            <p>そのスピード感は見ている私達に凄まじい興奮と衝撃を与える。
+                              <br>
+                              世代最強をきめる日本ダービーはクラシックG1でも
+                              <br>
+                              集う人が多い大人気のレース。
+                          </p>
+                        </div>
+                    </div>
+                </section>
+
+                <section id="myfave">
+                  <div class="title">
+                    <h2>最強にかわいい推し馬</h2> 
+                </div>
+                <div class="div_border_sec"></div>
+                    <div class="c-carousel">
+                        <input class="c-carousel__activator-main" type="radio" checked id="carousel-main-1" name="carousel-main">
+                        <input class="c-carousel__activator-main" type="radio" id="carousel-main-2" name="carousel-main">
+                        <input class="c-carousel__activator-main" type="radio" id="carousel-main-3" name="carousel-main">
+                        <div class="c-carousel__main">
+                          <div class="c-carousel__main-control">
+                            <div class="c-carousel__main-control-item">
+                              <label class="c-carousel__btn-next-main" for="carousel-main-2">
+                                <i class="c-image-arrow las la-angle-right"></i>
+                              </label>
+                            </div>
+                            <div class="c-carousel__main-control-item">
+                              <label class="c-carousel__btn-prev-main" for="carousel-main-1">
+                                <i class="c-image-arrow las la-angle-left"></i>
+                              </label>
+                              <label class="c-carousel__btn-next-main" for="carousel-main-3">
+                                <i class="c-image-arrow las la-angle-right"></i>
+                              </label>
+                            </div>
+                            <div class="c-carousel__main-control-item">
+                              <label class="c-carousel__btn-prev-main" for="carousel-main-2">
+                                <i class="c-image-arrow las la-angle-left"></i>
+                              </label>
+                            </div>
+                          </div>
+                          <div class="c-carousel__main-track">
+                            <div class="c-carousel__main-item">
+                              <img class="c-carousel__main-image" src="./assets/gentil.jpg" alt=""/>
+                              <p class="c_card_text">
+                                馬名 : ジェンティルドンナ
+                                <br>
+                                主な戦績 : 桜花賞、優駿牝馬(オークス)、秋華賞、
+                                <br>
+                                ジャパンカップ2勝、ドバイシーマ、有馬記念
+                                <br>
+                                引退
+                              </p>
+                            </div>
+                            <div class="c-carousel__main-item">
+                              <img class="c-carousel__main-image" src="./assets/geral.jpg" alt=""/>
+                              <p class="c_card_text">
+                                馬名 : ジェラルディーナ
+                                <br>
+                                主な戦績 : エリザベス女王杯
+                                <br>
+                                引退
+                              </p>
+                            </div>
+                            <div class="c-carousel__main-item">
+                              <img class="c-carousel__main-image" src="./assets/do.jpg" alt=""/>
+                              <p class="c_card_text">
+                                馬名 : ドウデュース
+                                <br>
+                                主な戦績 : 朝日フューチャリティーS、東京優駿(ダービー)、有馬記念
+                                <br>
+                                現役 今秋引退予定
+                              </p>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                </section>
+            </div>
+        </div>
+    </div>
+    <footer>
+      <div>
+        <p class="footer_text">松原拓己  2306070029</p>
+        <ul class="footer_list">
+          <li><a href="#top">top</a></li>
+          <li><a href="#content">content</a></li>
+          <li><a href="#myfave">myfave</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script>
+        $(function(){
+            $(window).on('load scroll', function() {
+                var winScroll = $(window).scrollTop();
+                var winHeight = $(window).height();
+                var scrollPos = winScroll + (winHeight * 0.8);
+
+                $(".show").each(function() {
+                    if($(this).offset().top < scrollPos) {
+                        $(this).css({opacity: 1, transform: 'translate(0, 0)'});
+                    }
+                });
+            });
+        });
+    </script>
+</body>
+</html>
